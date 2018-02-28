@@ -7,7 +7,7 @@ import java.util.LinkedList;
 	//	public static void main(String[] args) {
 		//	System.out.println("Projeto 1");
 			
-//		}
+	//	}
 //}
 
 
@@ -48,11 +48,7 @@ public class Main {
             }   // fecha o while
             bufferedReader.close();         
         }
-        catch(FileNotFoundException ex) {
-            System.out.println(
-                "Unable to open file '" + 
-                fileName + "'");                
-        }
+        
         catch(IOException ex) {
             System.out.println(
                 "Error reading file '" 
